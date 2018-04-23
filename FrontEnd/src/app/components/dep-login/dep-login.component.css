@@ -1,0 +1,37 @@
+#conImg {
+  background-image: url("images/intro-bg.jpg");
+  height: 550px;
+  width: 1360px;
+}
+#h1{
+  font-family: "fantasy";
+  color: white;
+  margin-left: 100px;
+
+
+}
+#attributeDiv{
+  margin-left: 50px;
+  height: 370px;
+  width: 500px;
+  background-color: transparent;
+  border: solid;
+
+  color: white;
+
+}
+#emailInput{
+  background-color: transparent;
+  color: white;
+}
+#passwordInput{
+  background-color: transparent;
+  color: white;
+}
+#frogotId{
+  margin-left: 150px;
+
+}
+#signup{
+  width: 475px;
+}
