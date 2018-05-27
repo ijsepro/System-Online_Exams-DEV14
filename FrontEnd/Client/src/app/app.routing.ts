@@ -13,6 +13,7 @@ import {TermspoliciesComponent} from "./termspolicies/termspolicies.component";
 import {SigninclientComponent} from "./signinclient/signinclient.component";
 import {ForgetpassComponent} from "./forgetpass/forgetpass.component";
 import {BoatregComponent} from "./boatreg/boatreg.component";
+import {ManagesubjectComponent} from "./manage-subject/manage-subject.component";
 
 const routes: Routes =[
     { path: 'home',             component: HomeComponent },
@@ -22,6 +23,7 @@ const routes: Routes =[
     { path: 'termspolicies',    component: TermspoliciesComponent},
     { path: 'signinclient',     component: SigninclientComponent},
     { path: 'forgetpass',       component: ForgetpassComponent},
+    { path: 'managesubject',    component: ManagesubjectComponent },
     { path: 'regpropertyadmin', component: RegpropertyadminComponent },
     { path: 'boatreg',          component: BoatregComponent},
     { path: 'landing',          component: LandingComponent },

@@ -35,7 +35,8 @@ import { BoatregComponent } from './boatreg/boatreg.component';
     TermspoliciesComponent,
     SigninclientComponent,
     ForgetpassComponent,
-    BoatregComponent
+    BoatregComponent,
+    ManagesubjectComponent
   ],
   imports: [
     BrowserModule,
