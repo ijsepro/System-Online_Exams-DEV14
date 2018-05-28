@@ -1,0 +1,53 @@
+<div class="wrapper" >
+  <div class="page-header" style="background-image: url('../assets/img/login-image.jpg');">
+    <div class="filter"></div>
+    <div class="container" >
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 mr-auto ml-auto">
+          <div class="card card-register" style="background-color: transparent; color: white;height:480px">
+            <h3 class="title" style="color: white"><b> Department Login</b></h3>
+
+            <div class="social-line text-center">
+              <a href="#pablo" class="btn btn-neutral btn-facebook btn-just-icon">
+                <i class="fa fa-facebook-square"></i>
+              </a>
+              <a href="#pablo" class="btn btn-neutral btn-google btn-just-icon">
+                <i class="fa fa-google-plus"></i>
+              </a>
+              <a href="#pablo" class="btn btn-neutral btn-twitter btn-just-icon">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </div>
+            <br>
+            <form class="register-form">
+              <label style="color: white">Email</label>
+              <input type="text" class="form-control" placeholder="Email">
+
+              <label style="color: white">Password</label>
+              <input type="password" class="form-control" placeholder="Password">
+
+              <a [routerLink]="['/user-profile']" class='btn btn-danger btn-fill btn-warning btn-wd btn-sm btn-block btn-round'>Login</a>
+
+              <div class="forgot">
+                <a [routerLink]="['/forgetpass'] " class="btn btn-link btn-danger">Forget Password?</a>
+              </div>
+
+              <a [routerLink]="['/regpropertyadmin']" class='btn btn-danger btn-fill btn-warning btn-wd btn-sm btn-block btn-round'>SignIn</a>
+
+
+            </form>
+
+            <div class="forgot">
+              <!--<a [routerLink]="['/regpropertyadmin'] " class="btn btn-link btn-danger">Register for a proper management</a>-->
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="footer register-footer text-center">
+         <br>
+      </div>
+    </div>
+  </div>
+</div>
+
