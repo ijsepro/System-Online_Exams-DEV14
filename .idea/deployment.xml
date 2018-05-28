@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="NEO">
+    <serverData>
+      <paths name="NEO">
+        <serverdata>
+          <mappings>
+            <mapping deploy="WW" local="$PROJECT_DIR$" web="/WW" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
